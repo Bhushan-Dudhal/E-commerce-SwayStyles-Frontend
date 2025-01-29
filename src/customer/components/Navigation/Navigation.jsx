@@ -1,6 +1,5 @@
-'use client'
 
-import { Fragment, useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import {
   Dialog,
   DialogBackdrop,
@@ -140,7 +139,7 @@ const navigation = {
   ],
 }
 
-export default function Example() {
+export default function Navigation() {
   const [open, setOpen] = useState(false)
 
   return (
@@ -271,7 +270,7 @@ export default function Example() {
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
-       <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
               <button
