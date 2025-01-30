@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from './customer/components/Navigation/Navigation'
+import HomePage from './customer/pages/HomePages/HomePage'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
     <Navigation/>
     </div>
     <div>
-         home
+         <HomePage/>
       </div>
       </div>
   )
