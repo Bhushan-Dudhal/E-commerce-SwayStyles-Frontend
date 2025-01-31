@@ -10,6 +10,7 @@ const HomeSectionCard = () => {
               <h3 className=' text-lg font-medium text-gray-900'>Peach Thread Lehenga</h3> 
         <p className=' mt-2 text-sm text-gray-500'>Create an opulent effect with your fashion sense by wearing this elegant peach lehenga</p>
         <p>new text</p>
+        <p>hi</p>
           </div>
           
     </div>
