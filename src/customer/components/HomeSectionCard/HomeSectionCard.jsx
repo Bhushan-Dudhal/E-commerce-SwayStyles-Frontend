@@ -6,9 +6,10 @@ const HomeSectionCard = () => {
           <div className='h-[13rem] w-[10rem]'>
               <img className='object-cover object-top w-full h-full' src="" alt="https://www.ethnicplus.in/media/catalog/product/cache/77b9a44d9276879ccdde931a01149182/7/3/7315_1_.jpg" />
             </div>
-          <div className='p-4'>
+          <div className='p-4'> 
               <h3 className=' text-lg font-medium text-gray-900'>Peach Thread Lehenga</h3> 
-              <p className=' mt-2 text-sm text-gray-500'>Create an opulent effect with your fashion sense by wearing this elegant peach lehenga</p>
+        <p className=' mt-2 text-sm text-gray-500'>Create an opulent effect with your fashion sense by wearing this elegant peach lehenga</p>
+        <p>new text</p>
           </div>
           
     </div>
