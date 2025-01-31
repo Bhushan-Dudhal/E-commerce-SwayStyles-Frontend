@@ -12,6 +12,7 @@ const HomeSectionCard = () => {
         <p>new text</p>
         <p>hi</p>
         <p>new</p>
+        <p></p>
           </div>
           
     </div>
