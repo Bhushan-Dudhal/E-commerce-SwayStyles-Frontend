@@ -11,6 +11,7 @@ const HomeSectionCard = () => {
         <p className=' mt-2 text-sm text-gray-500'>Create an opulent effect with your fashion sense by wearing this elegant peach lehenga</p>
         <p>new text</p>
         <p>hi</p>
+        <p>new</p>
           </div>
           
     </div>
