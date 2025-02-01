@@ -17,6 +17,7 @@ const MainCarousel = () => {
               infinite
       />
       <p></p>
+      <p></p>
     </div>
     
   )
