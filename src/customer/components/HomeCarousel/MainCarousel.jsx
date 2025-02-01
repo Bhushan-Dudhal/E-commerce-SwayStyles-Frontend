@@ -15,8 +15,10 @@ const MainCarousel = () => {
               autoPlay
               autoPlayInterval={1000}
               infinite
-    />
+      />
+      <p></p>
     </div>
+    
   )
 }
 

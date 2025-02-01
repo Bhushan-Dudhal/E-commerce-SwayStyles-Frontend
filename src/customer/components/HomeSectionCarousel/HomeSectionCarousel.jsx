@@ -19,7 +19,6 @@ const HomeSectionCarousel = () => {
                     infinite
                     responsive={responsive}
         />
-        <p></p>
       </div>
     </div>
   )
