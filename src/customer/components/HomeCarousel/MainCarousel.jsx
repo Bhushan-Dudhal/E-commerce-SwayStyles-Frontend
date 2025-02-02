@@ -19,6 +19,7 @@ const MainCarousel = () => {
       <p>nehhbfh</p>
       <h1>welcome to my</h1>
       <h2>jbbhbbgibgiubg</h2>
+      <h6>ggtg</h6>
 
     </div>
     
