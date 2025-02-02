@@ -21,6 +21,7 @@ const MainCarousel = () => {
       <h2>jbbhbbgibgiubg</h2>
       <h6>ggtg</h6>
       <h4>gfgfgb</h4>
+      <h1><h1>tyy6</h1></h1>
 
     </div>
     
