@@ -18,8 +18,8 @@ const HomeSectionCarousel = () => {
   const syncActiveIndex=({item})=>setActiveIndex(item)
   const items =mens_kurta.slice(0,10).map((items)=><HomeSectionCard product={items}/>)
   return (
-    <div className=' px-4 lg:px-8'>
-      <div className='relative p-5 '>
+    <div className='px-4 lg:px-8'>
+      <div className='relative p-5'>
         <AliceCarousel
                     disableButtonsControls
                     items={items}
@@ -37,7 +37,7 @@ const HomeSectionCarousel = () => {
         
         <Button
           onClick={slidePrev}
-          variant="contained" className='z-50 bg-white' sx={{ position: "absolute", top: "8rem", left: "0rem", transform: "translateX(-50%) rotate(90deg)", bgcolor: "white" }} aria-label='next' >
+          variant="contained" className='z-50 bg-white' sx={{ position: "absolute", top:"8rem", left:"0rem", transform:"translateX(-50%) rotate(90deg)", bgcolor: "white" }} aria-label='next' >
           <ChevronLeftIcon sx={{transform:"rotate(-90deg)",color:"black"}} />
       </Button> 
       </div>
