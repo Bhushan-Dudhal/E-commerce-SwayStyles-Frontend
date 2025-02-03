@@ -16,14 +16,8 @@ const MainCarousel = () => {
               autoPlayInterval={1000}
               infinite
       />
-      <p>nehhbfh</p>
-      <h1>welcome to my</h1>
-      <h2>jbbhbbgibgiubg</h2>
-      <h6>ggtg</h6>
-      <h4>gfgfgb</h4>
-      <h1><h1>tyy6</h1></h1>
-
-    </div>
+      
+</div>
     
   )
 }

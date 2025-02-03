@@ -1,6 +1,6 @@
 export const MainCarouselData = [
     {
-        image: "https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/3/13_9.jpg",
+        image: "https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/0/10_5.jpg",
         path: "/Women/clothing/women_saree"
     },
     {
