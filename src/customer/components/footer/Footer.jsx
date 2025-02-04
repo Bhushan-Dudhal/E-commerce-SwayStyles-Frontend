@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
           <Grid className=' bg-black text-white text-center mt-10'
               container
-              sx={{bgcolor:"black"}}
+              sx={{bgcolor:"black",color:"white"}}
           >
               
           </Grid>
