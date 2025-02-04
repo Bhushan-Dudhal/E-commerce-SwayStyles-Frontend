@@ -5,7 +5,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { Button } from '@mui/material';
 import { mens_kurta } from '../../../data/mens_kurta';
 
-const HomeSectionCarousel = () => {
+const HomeSectionCarousel = ({data,sectionName}) => {
   const  [activeIndex,setActiveIndex]=useState(0)
   const responsive = {
     0: { items: 1 },
@@ -16,9 +16,10 @@ const HomeSectionCarousel = () => {
   const slidePrev = () => setActiveIndex(activeIndex - 1) 
   const slideNext = () => setActiveIndex(activeIndex + 1)
   const syncActiveIndex=({item})=>setActiveIndex(item)
-  const items =mens_kurta.slice(0,10).map((items)=><HomeSectionCard product={items}/>)
+  const items =data.slice(0,10).map((items)=><HomeSectionCard product={items}/>)
   return (
-    <div className='px-4 lg:px-8'>
+    <div className='border'>
+      <h2 className=' text-2xl font-extrabold text-gray-800 py-5'>{sectionName}</h2>
       <div className='relative p-5'>
         <AliceCarousel
                     disableButtonsControls
@@ -35,11 +36,11 @@ const HomeSectionCarousel = () => {
           <ChevronLeftIcon sx={{transform:"rotate(90deg)",color:"black"}} />
         </Button>}
         
-        <Button
+       {activeIndex !==0 && <Button
           onClick={slidePrev}
           variant="contained" className='z-50 bg-white' sx={{ position: "absolute", top:"8rem", left:"0rem", transform:"translateX(-50%) rotate(90deg)", bgcolor: "white" }} aria-label='next' >
           <ChevronLeftIcon sx={{transform:"rotate(-90deg)",color:"black"}} />
-      </Button> 
+      </Button> }
       </div>
     </div>
   )
