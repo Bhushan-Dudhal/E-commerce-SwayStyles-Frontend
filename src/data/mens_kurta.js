@@ -1,7 +1,7 @@
 export const mens_kurta = [
     {
         imageUrl:
-            "https://rukminim1.flixcart.com/image/612/612/l5h2xe80/kurta/x/6/n/xl-kast-tile-green-majestic-man-original-imagg4z33hu4kzpv.jpeg?q=70",
+            "https://n2.sdlcdn.com/imgs/k/k/7/Rigo-Red-Fleece-Regular-Fit-SDL775537444-4-4ecea.jpg",
         brand: "Majestic Man",
         title: "Men Printed Pure Cotton Straight Kurta",
         color: "Green",
@@ -31,7 +31,7 @@ export const mens_kurta = [
     },
     {
         imageUrl:
-            "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/l/f/r/xl-k-spl668-yellow-sg-leman-original-imagznqcrahgq9rf.jpeg?q=70",
+            "https://n1.sdlcdn.com/imgs/k/m/a/Forbro-Maroon-Nylon-Regular-Fit-SDL098015881-1-fce42.jpg",
         brand: "SG LEMAN",
         title: "Men Embroidered Jacquard Straight Kurta",
         color: "Yellow",
@@ -61,7 +61,7 @@ export const mens_kurta = [
     },
     {
         imageUrl:
-            "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/g/6/k/m-sksh-dt1105-pcbl-fubar-original-imafux247zhqym2z-bb.jpeg?q=70",
+            "https://n1.sdlcdn.com/imgs/k/EPPE-Green-Fleece-Men-s-SDL835794143-1-ba40c.jpeg",
         brand: "FUBAR",
         title: "Men Printed Cotton Blend Straight Kurta",
         color: "Blue",

@@ -18,7 +18,7 @@ const HomeSectionCarousel = ({data,sectionName}) => {
   const syncActiveIndex=({item})=>setActiveIndex(item)
   const items =data.slice(0,10).map((items)=><HomeSectionCard product={items}/>)
   return (
-    <div className='border'>
+    <div className=''>
       <h2 className=' text-2xl font-extrabold text-gray-800 py-5'>{sectionName}</h2>
       <div className='relative p-5'>
         <AliceCarousel
@@ -40,7 +40,8 @@ const HomeSectionCarousel = ({data,sectionName}) => {
           onClick={slidePrev}
           variant="contained" className='z-50 bg-white' sx={{ position: "absolute", top:"8rem", left:"0rem", transform:"translateX(-50%) rotate(90deg)", bgcolor: "white" }} aria-label='next' >
           <ChevronLeftIcon sx={{transform:"rotate(-90deg)",color:"black"}} />
-      </Button> }
+        </Button>}
+        <div></div>
       </div>
     </div>
   )
