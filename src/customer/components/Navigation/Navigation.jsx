@@ -226,8 +226,7 @@ export default function Navigation() {
                 ))}
               </TabPanels>
             </TabGroup>
-
-            <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+           <div className="space-y-6 border-t border-gray-200 px-4 py-6">
               {navigation.pages.map((page) => (
                 <div key={page.name} className="flow-root">
                   <a href={page.href} className="-m-2 block p-2 font-medium text-gray-900">
@@ -236,7 +235,6 @@ export default function Navigation() {
                 </div>
               ))}
             </div>
-
             <div className="space-y-6 border-t border-gray-200 px-4 py-6">
               <div className="flow-root">
                 <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
@@ -264,8 +262,7 @@ export default function Navigation() {
           </DialogPanel>
         </div>
       </Dialog>
-
-      <header className="relative bg-white">
+   <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
@@ -309,7 +306,7 @@ export default function Navigation() {
                         transition
                         className="absolute inset-x-0 top-full text-sm text-gray-500 transition data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
                       >
-                        {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
+                       {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
                         <div aria-hidden="true" className="absolute inset-0 top-1/2 bg-white shadow-sm" />
 
                         <div className="relative bg-white">
@@ -361,8 +358,7 @@ export default function Navigation() {
                       </PopoverPanel>
                     </Popover>
                   ))}
-
-                  {navigation.pages.map((page) => (
+                {navigation.pages.map((page) => (
                     <a
                       key={page.name}
                       href={page.href}
@@ -373,8 +369,7 @@ export default function Navigation() {
                   ))}
                 </div>
               </PopoverGroup>
-
-              <div className="ml-auto flex items-center">
+            <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                     Sign in
@@ -384,8 +379,7 @@ export default function Navigation() {
                     Create account
                   </a>
                 </div>
-
-                <div className="hidden lg:ml-8 lg:flex">
+             <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 hover:text-gray-800">
                     <img
                       alt=""

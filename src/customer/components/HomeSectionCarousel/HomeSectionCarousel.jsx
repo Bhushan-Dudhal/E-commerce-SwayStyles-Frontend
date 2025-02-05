@@ -12,7 +12,6 @@ const HomeSectionCarousel = ({data,sectionName}) => {
     720: { items: 3 },
     1024: { items:5.5 },
   };
-  
   const slidePrev = () => setActiveIndex(activeIndex - 1) 
   const slideNext = () => setActiveIndex(activeIndex + 1)
   const syncActiveIndex=({item})=>setActiveIndex(item)
@@ -35,13 +34,11 @@ const HomeSectionCarousel = ({data,sectionName}) => {
           variant="contained" className='z-50 bg-white' sx={{ position: "absolute", top: "8rem", right: "0rem", transform: "translateX(50%) rotate(90deg)", bgcolor: "white" }} aria-label='next' >
           <ChevronLeftIcon sx={{transform:"rotate(90deg)",color:"black"}} />
         </Button>}
-        
-       {activeIndex !==0 && <Button
+      {activeIndex !==0 && <Button
           onClick={slidePrev}
           variant="contained" className='z-50 bg-white' sx={{ position: "absolute", top:"8rem", left:"0rem", transform:"translateX(-50%) rotate(90deg)", bgcolor: "white" }} aria-label='next' >
           <ChevronLeftIcon sx={{transform:"rotate(-90deg)",color:"black"}} />
         </Button>}
-        <div></div>
       </div>
     </div>
   )
