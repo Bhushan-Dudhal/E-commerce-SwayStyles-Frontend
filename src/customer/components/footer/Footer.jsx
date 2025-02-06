@@ -115,7 +115,9 @@ const Footer = () => {
         <div>
           <h1>
             <h2>
-              
+              <div>
+                
+              </div>
             </h2>
           </h1>
         </div>
