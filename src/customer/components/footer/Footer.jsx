@@ -106,12 +106,13 @@ const Footer = () => {
         </Grid>
         <Grid className="pt-20" item xs={12}>
           <Typography variant="body2" component={"p"} align="center">
-            &copy; 2024 My Shop, All rights and reserved
+            &copy; 2025 My Shop, All rights and reserved
           </Typography>
           <Typography variant="body2" component={"p"} align="center">
             Made with love React and me.
-          </Typography>
+          </Typography> 
         </Grid>
+        <div></div>
       </Grid>
     </div>
   )

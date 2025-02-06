@@ -10,8 +10,8 @@ function App() {
    <div>
          <HomePage/>
       </div>
-      <Footer />
-      <div>new</div>
+      <Footer/>
+      
       </div>
   )
 }
