@@ -418,6 +418,7 @@ export default function Navigation() {
           <nav>
             <dialog>
               <p>ffdbg</p>
+              <data value=""></data>
             </dialog>
           </nav>
         </div>
