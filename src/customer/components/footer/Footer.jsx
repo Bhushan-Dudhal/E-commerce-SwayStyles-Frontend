@@ -112,15 +112,6 @@ const Footer = () => {
             Made with love React and me.
           </Typography> 
         </Grid>
-        <div>
-          <h1>
-            <h2>
-              <div>
-                
-              </div>
-            </h2>
-          </h1>
-        </div>
       </Grid>
     </div>
   )
