@@ -416,7 +416,9 @@ export default function Navigation() {
         </nav>
         <div>
           <nav>
-            
+            <dialog>
+              
+            </dialog>
           </nav>
         </div>
       </header>
