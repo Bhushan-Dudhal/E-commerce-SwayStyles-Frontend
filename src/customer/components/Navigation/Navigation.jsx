@@ -417,7 +417,7 @@ export default function Navigation() {
         <div>
           <nav>
             <dialog>
-              
+              <p>ffdbg</p>
             </dialog>
           </nav>
         </div>
