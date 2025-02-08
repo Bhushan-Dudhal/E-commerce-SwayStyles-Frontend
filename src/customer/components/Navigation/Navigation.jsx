@@ -308,6 +308,9 @@ export default function Navigation() {
                       >
                        {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
                         <div aria-hidden="true" className="absolute inset-0 top-1/2 bg-white shadow-sm" />
+                        <div>
+                          
+                        </div>
 
                         <div className="relative bg-white">
                           <div className="mx-auto max-w-7xl px-8">
@@ -414,14 +417,6 @@ export default function Navigation() {
             </div>
           </div>
         </nav>
-        <div>
-          <nav>
-            <dialog>
-              <p>ffdbg</p>
-              <data value=""></data>
-            </dialog>
-          </nav>
-        </div>
       </header>
     </div>
   )
