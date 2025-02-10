@@ -111,6 +111,7 @@ const Footer = () => {
           <Typography variant="body2" component={"p"} align="center">
             Made with love React and me.
           </Typography> 
+          <div></div>
         </Grid>
       </Grid>
     </div>
