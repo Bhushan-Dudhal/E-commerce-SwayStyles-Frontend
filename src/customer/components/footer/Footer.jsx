@@ -16,6 +16,7 @@ const Footer = () => {
           <div>
             <Button className="pb-5" variant="h6" >
               About
+              phone
             </Button>
           </div>
           <div>
@@ -111,9 +112,7 @@ const Footer = () => {
           <Typography variant="body2" component={"p"} align="center">
             Made with love React and me.
           </Typography> 
-          <div>
-            <p></p>
-          </div>
+         
         </Grid>
       </Grid>
     </div>
