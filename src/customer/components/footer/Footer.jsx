@@ -16,13 +16,16 @@ const Footer = () => {
           <div>
             <Button className="pb-5" variant="h6" >
               About
-              phone
             </Button>
           </div>
           <div>
             <Button className="pb-5" variant="h6">
               Blog
             </Button>
+            
+          </div>
+          <div>
+            
           </div>
           <div>
             <Button className="pb-5" variant="h6">
