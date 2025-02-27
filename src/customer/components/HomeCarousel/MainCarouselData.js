@@ -8,7 +8,7 @@ export const MainCarouselData = [
         path: "/Women/clothing/women_saree"
     },
     {
-        image: "https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/1/5/15_6.jpg",
+        image: "https://www.ethnicplus.in/media/mageplaza/bannerslider/banner/image/8/_/8_16.jpg",
         path: "/Women/clothing/women_saree"
     },
     {

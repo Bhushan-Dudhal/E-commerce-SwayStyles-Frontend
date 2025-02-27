@@ -6,13 +6,12 @@ import Footer from './customer/components/footer/Footer'
 function App() {
   return (
     <div className=''>
-   <Navigation/>
+        <Navigation/>
    <div>
          <HomePage/>
       </div>
-      <Footer/>
-      
-      </div>
+         <Footer/>
+     </div>
   )
 }
 
