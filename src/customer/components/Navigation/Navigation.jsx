@@ -285,7 +285,7 @@ export default function Navigation() {
                   <span className="sr-only">Your Company</span>
                   <img
                     alt=""
-                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                    src="https://png.pngtree.com/template/20200404/ourmid/pngtree-women-s-clothing-logo-design-image_361513.jpg"
                     className="h-8 w-auto"
                   />
                 </a>

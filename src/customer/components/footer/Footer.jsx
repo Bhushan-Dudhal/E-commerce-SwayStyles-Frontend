@@ -22,12 +22,9 @@ const Footer = () => {
             <Button className="pb-5" variant="h6">
               Blog
             </Button>
-            
-          </div>
+            </div>
           <div>
-           
-            
-          </div>
+           </div>
           <div>
             <Button className="pb-5" variant="h6">
               Press

@@ -12,12 +12,13 @@ const MainCarousel = () => {
           <AliceCarousel
               disableButtonsControls
               items={items}
-              autoPlay
+              
+              
+              autoPlayControls
               autoPlayInterval={2000}
               infinite
       />
-      
-</div>
+  </div>
     
   )
 }
