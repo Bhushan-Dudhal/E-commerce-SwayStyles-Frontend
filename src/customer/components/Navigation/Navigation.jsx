@@ -1,5 +1,5 @@
 
-import React, { Fragment, useState } from 'react'
+import React,{Fragment, useState } from 'react'
 import {
   Dialog,
   DialogBackdrop,
@@ -262,7 +262,7 @@ export default function Navigation() {
           </DialogPanel>
         </div>
       </Dialog>
-   <header className="relative bg-white">
+    <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over $100
         </p>
@@ -274,7 +274,7 @@ export default function Navigation() {
                 onClick={() => setOpen(true)}
                 className="relative rounded-md bg-white p-2 text-gray-400 lg:hidden"
               >
-                <span className="absolute -inset-0.5" />
+              <span className="absolute -inset-0.5" />
                 <span className="sr-only">Open menu</span>
                 <Bars3Icon aria-hidden="true" className="size-6" />
               </button>
@@ -301,8 +301,7 @@ export default function Navigation() {
                           {category.name}
                         </PopoverButton>
                       </div>
-
-                      <PopoverPanel
+                       <PopoverPanel
                         transition
                         className="absolute inset-x-0 top-full text-sm text-gray-500 transition data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
                       >
@@ -409,7 +408,7 @@ export default function Navigation() {
                       aria-hidden="true"
                       className="size-6 shrink-0 text-gray-400 group-hover:text-gray-500"
                     />
-                    <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
+                    <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">5</span>
                     <span className="sr-only">items in cart, view bag</span>
                   </a>
                 </div>

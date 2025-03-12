@@ -3,7 +3,6 @@ import AliceCarousel from 'react-alice-carousel'
 import HomeSectionCard from '../HomeSectionCard/HomeSectionCard';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { Button } from '@mui/material';
-import { mens_kurta } from '../../../data/mens_kurta';
 
 const HomeSectionCarousel = ({data,sectionName}) => {
   const  [activeIndex,setActiveIndex]=useState(0)

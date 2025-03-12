@@ -7,13 +7,11 @@ const MainCarousel = () => {
      
     const items = MainCarouselData.map((item) => <img role='presentation' className='cursor-pointer' src={item.image}  alt='' />)
     
-  return (
+return (
       <div>
           <AliceCarousel
               disableButtonsControls
               items={items}
-              
-              
               autoPlayControls
               autoPlayInterval={2000}
               infinite
