@@ -5,16 +5,17 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 const MainCarousel = () => {
      
-    const items = MainCarouselData.map((item) => <img role='presentation' className='cursor-pointer' src={item.image}  alt='' />)
+    const items = MainCarouselData.map((item) => <img role='presentation' className='cursor-pointer -z-10' src={item.image}  alt='' />)
     
 return (
       <div>
           <AliceCarousel
               disableButtonsControls
               items={items}
-              autoPlayControls
+              autoPlay
               autoPlayInterval={2000}
               infinite
+              
       />
   </div>
     
